@@ -5,3 +5,4 @@ print(friends[0])
 friends[0] = "Grapes" # Lists are mutable
 
 print(friends)
+print(friends[1:4])
