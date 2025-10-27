@@ -51,29 +51,39 @@
 
 # Ex - 5
 
-s = {};
+# s = {};
 
-name = input("Enter Your Name: ")
-lang = input("Enter Your Favorite Language: ")
-s[name] = lang
-# or
-# s.update({name: lang})
-name = input("Enter Your Name: ")
-lang = input("Enter Your Favorite Language: ")
-s[name] = lang
-# or
-# s.update({name: lang})
-name = input("Enter Your Name: ")
-lang = input("Enter Your Favorite Language: ")
-s[name] = lang
-# or
-# s.update({name: lang})
-name = input("Enter Your Name: ")
-lang = input("Enter Your Favorite Language: ")
-s[name] = lang
-# or
-# s.update({name: lang})
+# name = input("Enter Your Name: ")
+# lang = input("Enter Your Favorite Language: ")
+# s[name] = lang
+# # or
+# # s.update({name: lang})
+# name = input("Enter Your Name: ")
+# lang = input("Enter Your Favorite Language: ")
+# s[name] = lang
+# # or
+# # s.update({name: lang})
+# name = input("Enter Your Name: ")
+# lang = input("Enter Your Favorite Language: ")
+# s[name] = lang
+# # or
+# # s.update({name: lang})
+# name = input("Enter Your Name: ")
+# lang = input("Enter Your Favorite Language: ")
+# s[name] = lang
+# # or
+# # s.update({name: lang})
 
 
 
-print(s)
+# print(s)
+
+
+# Ex - 9
+# Can you change the values inside a list which is contained in set S?
+# s = {8,7,12,"Harry", [1,2]}
+
+# No, you cannot modify a list contained within a set in Python. 
+# This is because sets in Python require all their elements to be hashable (immutable and with a consistent hash value). 
+# Lists are mutable and therefore not hashable, 
+# so trying to include a list directly in a set will raise a TypeError.
